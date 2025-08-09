@@ -19,4 +19,4 @@ btnLogout.addEventListener("click", () =>{
     location.href = "../login.html";
 });
 
-export default getUser;
+//export default getUser;

@@ -1,5 +1,5 @@
 ### ==================== API INVENTARIO - DOCUMENTACIÓN ====================
-### Base URL: http://localhost/backend-apicrud/index.php
+### Base URL: http://localhost/backend-apiCrud/index.php
 ### Autor: Prof. Jossy Tello
 ### institucion: CESDE
 ### Versión: 2.0
@@ -7,7 +7,7 @@
 ### ==================== AUTENTICACIÓN ====================
 
 ### Login de Usuario
-POST http://localhost/backend-apicrud/index.php?url=login
+POST http://localhost/backend-apiCrud/index.php?url=login
 Content-Type: application/json
 
 {
@@ -18,13 +18,13 @@ Content-Type: application/json
 ### ==================== CRUD PRODUCTOS ====================
 
 ### Obtener todos los productos
-GET http://localhost/backend-apicrud/index.php?url=productos
+GET http://localhost/backend-apiCrud/index.php?url=productos
 
 ### Obtener producto por ID
-GET http://localhost/backend-apicrud/index.php?url=productos&id=6
+GET http://localhost/backend-apiCrud/index.php?url=productos&id=6
 
 ### Crear nuevo producto
-POST http://localhost/backend-apicrud/index.php?url=productos
+POST http://localhost/backend-apiCrud/index.php?url=productos
 Content-Type: application/json
 
 {
@@ -36,7 +36,7 @@ Content-Type: application/json
 }
 
 ### Actualizar producto existente
-PUT http://localhost/backend-apicrud/index.php?url=productos
+PUT http://localhost/backend-apiCrud/index.php?url=productos
 Content-Type: application/json
 
 {
@@ -49,7 +49,7 @@ Content-Type: application/json
 }
 
 ### Eliminar producto
-DELETE http://localhost/backend-apicrud/index.php?url=productos
+DELETE http://localhost/backend-apiCrud/index.php?url=productos
 Content-Type: application/json
 
 {
@@ -59,13 +59,13 @@ Content-Type: application/json
 ### ==================== CRUD CLIENTES ====================
 
 ### Obtener todos los clientes
-GET http://localhost/backend-apicrud/index.php?url=clientes
+GET http://localhost/backend-apiCrud/index.php?url=clientes
 
 ### Obtener cliente por ID
-GET http://localhost/backend-apicrud/index.php?url=clientes&id=1
+GET http://localhost/backend-apiCrud/index.php?url=clientes&id=1
 
 ### Crear nuevo cliente
-POST http://localhost/backend-apicrud/index.php?url=clientes
+POST http://localhost/backend-apiCrud/index.php?url=clientes
 Content-Type: application/json
 
 {
@@ -79,7 +79,7 @@ Content-Type: application/json
 }
 
 ### Actualizar cliente existente
-PUT http://localhost/backend-apicrud/index.php?url=clientes
+PUT http://localhost/backend-apiCrud/index.php?url=clientes
 Content-Type: application/json
 
 {
@@ -94,7 +94,7 @@ Content-Type: application/json
 }
 
 ### Eliminar cliente
-DELETE http://localhost/backend-apicrud/index.php?url=clientes
+DELETE http://localhost/backend-apiCrud/index.php?url=clientes
 Content-Type: application/json
 
 {
@@ -104,13 +104,13 @@ Content-Type: application/json
 ### ==================== CRUD PEDIDOS ====================
 
 ### Obtener todos los pedidos
-GET http://localhost/backend-apicrud/index.php?url=pedidos
+GET http://localhost/backend-apiCrud/index.php?url=pedidos
 
 ### Obtener pedido por ID (incluye detalles)
-GET http://localhost/backend-apicrud/index.php?url=pedidos&id=1
+GET http://localhost/backend-apiCrud/index.php?url=pedidos&id=1
 
 ### Crear nuevo pedido con productos
-POST http://localhost/backend-apicrud/index.php?url=pedidos
+POST http://localhost/backend-apiCrud/index.php?url=pedidos
 Content-Type: application/json
 
 {
@@ -133,7 +133,7 @@ Content-Type: application/json
 }
 
 ### Actualizar pedido existente
-PUT http://localhost/backend-apicrud/index.php?url=pedidos
+PUT http://localhost/backend-apiCrud/index.php?url=pedidos
 Content-Type: application/json
 
 {
@@ -145,7 +145,7 @@ Content-Type: application/json
 }
 
 ### Eliminar pedido (incluye detalles)
-DELETE http://localhost/backend-apicrud/index.php?url=pedidos
+DELETE http://localhost/backend-apiCrud/index.php?url=pedidos
 Content-Type: application/json
 
 {
@@ -155,13 +155,13 @@ Content-Type: application/json
 ### ==================== CRUD USUARIOS/ROLES ====================
 
 ### Obtener todos los usuarios
-GET http://localhost/backend-apicrud/index.php?url=usuarios
+GET http://localhost/backend-apiCrud/index.php?url=usuarios
 
 ### Obtener usuario por ID
-GET http://localhost/backend-apicrud/index.php?url=usuarios&id=1
+GET http://localhost/backend-apiCrud/index.php?url=usuarios&id=1
 
 ### Crear nuevo usuario
-POST http://localhost/backend-apicrud/index.php?url=usuarios
+POST http://localhost/backend-apiCrud/index.php?url=usuarios
 Content-Type: application/json
 
 {
@@ -171,7 +171,7 @@ Content-Type: application/json
 }
 
 ### Actualizar usuario existente (sin cambiar contraseña)
-PUT http://localhost/backend-apicrud/index.php?url=usuarios
+PUT http://localhost/backend-apiCrud/index.php?url=usuarios
 Content-Type: application/json
 
 {
@@ -181,7 +181,7 @@ Content-Type: application/json
 }
 
 ### Actualizar usuario existente (con nueva contraseña)
-PUT http://localhost/backend-apicrud/index.php?url=usuarios
+PUT http://localhost/backend-apiCrud/index.php?url=usuarios
 Content-Type: application/json
 
 {
@@ -192,7 +192,7 @@ Content-Type: application/json
 }
 
 ### Eliminar usuario
-DELETE http://localhost/backend-apicrud/index.php?url=usuarios
+DELETE http://localhost/backend-apiCrud/index.php?url=usuarios
 Content-Type: application/json
 
 {
@@ -202,10 +202,10 @@ Content-Type: application/json
 ### ==================== CRUD DETALLE PEDIDO ====================
 
 ### Obtener detalles de un pedido específico
-GET http://localhost/backend-apicrud/index.php?url=detalle-pedido&id_pedido=1
+GET http://localhost/backend-apiCrud/index.php?url=detalle-pedido&id_pedido=1
 
 ### Agregar producto a un pedido existente
-POST http://localhost/backend-apicrud/index.php?url=detalle-pedido
+POST http://localhost/backend-apiCrud/index.php?url=detalle-pedido
 Content-Type: application/json
 
 {
@@ -216,7 +216,7 @@ Content-Type: application/json
 }
 
 ### Actualizar detalle de pedido
-PUT http://localhost/backend-apicrud/index.php?url=detalle-pedido
+PUT http://localhost/backend-apiCrud/index.php?url=detalle-pedido
 Content-Type: application/json
 
 {
@@ -226,7 +226,7 @@ Content-Type: application/json
 }
 
 ### Eliminar detalle de pedido
-DELETE http://localhost/backend-apicrud/index.php?url=detalle-pedido
+DELETE http://localhost/backend-apiCrud/index.php?url=detalle-pedido
 Content-Type: application/json
 
 {
